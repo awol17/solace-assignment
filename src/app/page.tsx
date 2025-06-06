@@ -3,7 +3,7 @@
 import { useAdvocatesPage } from "@/app/hooks/useAdvocatesPage";
 import AdvocatesTable from "@/app/components/AdvocatesTable/AdvocatesTable";
 import Header from "./components/Header";
-import SearchBar from "./components/SearchBar";
+import SearchBar from "./components/SearchBar/SearchBar";
 import { TopBar } from "./components/TopBar.styles";
 import ErrorBanner from "./components/ErrorBanner";
 
