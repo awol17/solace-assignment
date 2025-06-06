@@ -19,5 +19,6 @@ Create user, Login page and authentication checks to API
 - Logging/Monitoring:
 Add logging and potential tracing around API errors and performance.
 - Global Theme
+- Fix inital render and types issues with ORM in POST route
 
 
