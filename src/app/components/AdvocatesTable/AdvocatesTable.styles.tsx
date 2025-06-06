@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
-export const TableWrapper = styled.div<{ loading: boolean }>`
+export const TableWrapper = styled.div.withConfig({
+  shouldForwardProp: (prop) => prop !== "loading",
+}) <{ loading: boolean }>`
   width: 100%;
   overflow-x: auto;
   margin-top: 20px;
